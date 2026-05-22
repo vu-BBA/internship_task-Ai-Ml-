@@ -13,8 +13,24 @@ This repository contains the practical tasks completed during my AI/ML Engineeri
 
 ## 📂 Project Structure
 ```text
-├── task_1_eda/
-│   ├── task_1.py                   # Python script version
-│   ├── task_1_notebook.ipynb       # Interactive Jupyter Notebook with plots
-│   └── README.md                   # Task-specific analysis notes
+├── task_1.py                       # EDA Task - Exploratory Data Analysis
+├── task_2.py                       # Stock Price Prediction - AAPL Price Forecasting using Linear Regression
+├── iris.csv                        # Iris dataset
+├── AI_Impact_Student_Life_2026.csv # Student life impact dataset
 └── README.md                       # Main repository overview
+```
+
+## 📋 Tasks Completed
+
+### Task 1: Exploratory Data Analysis (EDA)
+- Analyzed datasets to understand data distributions
+- Performed statistical analysis and visualizations
+- Identified key patterns and correlations
+
+### Task 2: Stock Price Prediction
+- **Objective:** Predict AAPL closing prices using Linear Regression
+- **Data Source:** Yahoo Finance (AAPL stock data from 2011-2026)
+- **Features Used:** Open, High, Low, Volume
+- **Target Variable:** Next day's closing price
+- **Methodology:** Chronological train-test split (80-20)
+- **Output:** Visualization of actual vs predicted prices
